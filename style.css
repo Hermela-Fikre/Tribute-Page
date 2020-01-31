@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Montserrat+Alternates);
+
+body {
+  padding: 3em;
+  background-image: url('https://img.youtube.com/vi/Ayo2K9kPuFU/maxresdefault.jpg');
+  background-attachment: fixed;
+}
+a:link{
+  text-decoration: underline;
+}
+header {
+  text-align: center;
+  padding-bottom: 0.75em;
+}
+.wrap{
+  padding: 3em;
+  border-radius:0.4em;
+  background-color: rgba(58,116,133, 0.8);
+  color: white;
+}
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img-caption {
+    /* float: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    height: auto;
+    /* max-width: 400px; */
+
+}
+h1, h2, h3{
+  font-family: 'Montserrat Alternates', Sans-Serif;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  background-color: rgba(255,255,255,0.6);
+  color: #337ab7;
+  padding: 0.75em;
+  text-align: center;
+  border-radius: 0.4em;
+}
+p {
+  margin-top: 1.5em;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+blockquote {
+  border: 0;
+  font-style: italic;
+  padding-top: 0.75em;
+  padding-bottom: 0;
+}
+
+blockquote:first-child {
+padding-top: 1.5em;
+}
